@@ -10,14 +10,16 @@ body {
 }
 
 .character{
-    height:150px;
+    height: 150px;
     width: 150px;
 }
 
-.header_gui{
+#header_title{
+    color:white;
+}
 
-    width: 100%;
-    height: 150 px;   
+.header_gui{
+    width: 100%;   
     background-color: black; 
     position: relative;   
 }
@@ -36,12 +38,12 @@ nav{
 }
 
 .tabs ul li a{
-
     color: white;
     text-decoration: none;
     font-size: 15px;
-
 }
+
+
 
    
 
