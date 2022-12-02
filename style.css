@@ -9,7 +9,6 @@ body {
 	background-color: #222;
 }
 
-
 .character{
     height:150px;
     width: 150px;
@@ -33,9 +32,15 @@ nav{
     width: 500px; 
     display:flex;
     justify-content: space-evenly;
-    flex-direction: row;
+    flex-direction: row;   
+}
 
-    
+.tabs ul li a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+
 }
 
    
