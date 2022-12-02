@@ -84,6 +84,16 @@ nav{
     height: 655px;
     background-color: darkslategray;
     position: relative;
+}
 
+.introText_Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 
+    height: 700px;
+    width: 100%;
+
+    background-color: aqua;
 }
