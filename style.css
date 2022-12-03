@@ -67,41 +67,42 @@ nav{
 .split{
     padding: 1%;
     flex-basis: 45%;
+    color: white;
+    font-size: 35px;
   }
 
 
- 
 .videoWrapper {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
-    width: 100%;
-    height: 0;
-      
-  }
+    width: 50%; /* this increases the size of the video ITSELF! (so just change this all the time)*/
+    height: 0;     
+}
 
 .videoWrapper iframe {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-
-    
+    width: 100%;   /* this increases the size of the video CONTAINER by width and height */
+    height: 100%
 }
 
 .topBody_gui{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-    background: white;
-    max-width: 98%;
-    margin: 0 auto;
-    padding: 2%;
+       
     
+    background-color: black;
+    
+    max-width: 99%;
+    margin: 0 auto;
+    padding: 1%; 
+
+    flex-wrap: wrap;
+    flex-grow: 1;  
 }
 
-
-   
-
+#among_who{
+    padding: 2%;
+    font-size: 50px;
+    color: white;
+}
