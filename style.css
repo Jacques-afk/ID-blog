@@ -3,17 +3,6 @@
     padding: 0;
 }
 
-
-
-/*body{
-    background-image: url(Pictures/floating\ cuties.gif);
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}*/
-
 .character{
     height: 150px;
     width: 150px;
@@ -187,3 +176,43 @@ nav{
     font-size: 20px;
 }
 
+
+
+
+.media{
+    display: flex;
+    position: relative;
+
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+
+    border-radius: 5px;
+    border-color: darkslategray;
+    box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);  
+    
+
+    background-color: black;
+    color:white;
+    font-size: 25px;
+}
+
+.media_links ul{
+    padding: 10px;
+    width: 500px; 
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row; 
+    position: relative;
+    list-style-type: none;  
+}
+
+.media_links ul li a{
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+
+}
