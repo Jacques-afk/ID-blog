@@ -155,10 +155,18 @@ nav{
 }
 
 .bottomBody_text{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    
+
     padding: 1%;
     color: white;
     font-size: 50px;
     flex-basis: 45%;
+
 }
 
 .bottomBody_pic img{
@@ -171,12 +179,11 @@ nav{
     justify-content: center;
     align-items: center;
     display: flex;
-    background: red; 
+
     width: 400px;
-    height: 100px;
+    height: 150px;
     border-radius: 5px;
-    color: white;
-    font-size: 30px;
-    text-decoration: none;
+    color: darkslategray;
+    font-size: 20px;
 }
 
