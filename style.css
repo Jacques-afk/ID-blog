@@ -66,12 +66,24 @@ nav{
     background-color: white;
 }
 
-.split{
-    padding: 1%;
-    color: white;
-    font-size: 35px;
-    flex-basis: 45%;
-  }
+
+
+
+
+
+
+
+  .topBody_gui{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    background-color: black;   
+    width: 100%;
+    flex-wrap: wrap;
+    flex-grow: 1;  
+}
 
 
 .videoWrapper {
@@ -89,19 +101,12 @@ nav{
     height: 100%
 }
 
-
-
-.topBody_gui{
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
-    background-color: black;   
-    width: 100%;
-    flex-wrap: wrap;
-    flex-grow: 1;  
-}
+.topBody_text{
+    padding: 1%;
+    color: white;
+    font-size: 35px;
+    flex-basis: 45%;
+  }
 
 
 .button{
@@ -118,13 +123,35 @@ nav{
 }
 
 
+
+
+
+
+
+
 .bottomBody_gui{
-    background-color: black;
-    height: 300px;
+    display: flex;
+    flex-direction: row;
+
+    background-color: black;  
     width: 100%;
+
+    flex-wrap: wrap;
+    flex-grow: 1;    
+}
+
+.bottomBody_text{
+    padding: 1%;
+    color: white;
+    font-size: 50px;
+    flex-basis: 45%;
 }
 
 
+.bottomBody_pic img{
 
+    height: 150px;
+    width: 150px;
+}
 
 
