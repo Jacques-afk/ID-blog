@@ -453,6 +453,8 @@ nav{
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    width: 100%;
+
 }
 
 .VR_picturesBot{
@@ -499,6 +501,20 @@ nav{
 
 
 .first img{
+    height:1000px;
+    width: 1100px;
+}
+
+.second img{
+    height: 1000px;
+    width: fit-content;
+}
+
+.fourth img{
+    height:400px;
+    width: 150px;
+}
+.fifth img{
     height:400px;
     width: 150px;
 }
