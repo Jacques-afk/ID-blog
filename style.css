@@ -296,3 +296,38 @@ nav{
     flex-basis: 45%; 
 }
 
+
+.fourth_sector{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+
+    padding: 2%;
+
+    background-color: black;     
+
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.fourth_pic img{
+
+    height: 650px;
+    width: 970px;
+}
+
+.fourth_text{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    
+
+    padding: 1%;
+    color: white;
+    font-size: 50px;
+    flex-basis: 45%; 
+}
