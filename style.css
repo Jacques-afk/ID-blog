@@ -168,6 +168,10 @@ nav{
     font-size: 25px;
 }
 
+#media_message{
+    padding: 0.5%;
+}
+
 .media_links ul{
     padding: 25px;
     width: 500px; 
@@ -179,12 +183,21 @@ nav{
 }
 
 .media_links ul li a{
-    padding: 0 20px;
+    padding: 0 35px;
     color: white;
     text-decoration: none;
-    font-size: 25px;    
+    font-size: 35px;    
     position: relative;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+ 
 }
+
+.media_links ul li a:hover{
+    color:#24262b;
+  
+}
+
 
 /******************************************************************************************************************/
 
