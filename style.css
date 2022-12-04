@@ -403,3 +403,16 @@ nav{
     font-size: 50px;
     flex-basis: 45%; 
 }
+
+
+.more_info{
+    background-color: black;
+    color: white;
+    font-size: 60px;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
+}
