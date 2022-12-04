@@ -440,7 +440,13 @@ nav{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    padding: 2%;
+}
+
+.VR_picturesBot{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
 .VR_text{
@@ -460,8 +466,17 @@ nav{
     padding: 2%;
 }
 
+#VR_para{
+    font-size: 20px;
+}
+
+
 .first img{
     height:400px;
     width: 150px;
+}
 
+.sixth img{
+    height:400px;
+    width: 150px;
 }
