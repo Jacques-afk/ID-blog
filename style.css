@@ -443,7 +443,7 @@ nav{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 2%;
+    padding: 1.57%;
 
     background-color: black;
 }
@@ -459,9 +459,10 @@ nav{
 
 .VR_picturesBot{
     display:flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
+    width: 100%;
 }
 
 .VR_text{
@@ -470,19 +471,19 @@ nav{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 5%;
+    padding: 3%;
 
     background-color: black;
     color: white;
 }
 
 #VR_title{
-    font-size: 35px;
+    font-size: 60px;
     padding: 2%;
 }
 
 #VR_para{
-    font-size: 20px;
+    font-size: 35px;
     padding: 2%;
 }
 
@@ -507,20 +508,16 @@ nav{
 
 .second img{
     height: 1000px;
-    width: fit-content;
+    width: 1100px;
+}
+
+.third img{
+    height:1000px;
+    width: 900px;
 }
 
 .fourth img{
-    height:400px;
-    width: 150px;
-}
-.fifth img{
-    height:400px;
-    width: 150px;
-}
-
-.sixth img{
-    height:400px;
-    width: 150px;
+    height:1000px;
+    width: 1300px;
 }
 
