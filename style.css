@@ -331,3 +331,75 @@ nav{
     font-size: 50px;
     flex-basis: 45%; 
 }
+
+
+
+.fifth_sector{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+
+    padding: 2%;
+
+    background-color: #151414;     
+
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.fifth_pic img{
+
+    height: 650px;
+    width: 970px;
+}
+
+.fifth_text{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    
+
+    padding: 1%;
+    color: white;
+    font-size: 50px;
+    flex-basis: 45%; 
+}
+
+.last_sector{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+
+    padding: 2%;
+
+    background-color: black;     
+
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.last_pic img{
+
+    height: 650px;
+    width: 970px;
+}
+
+.last_text{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    
+
+    padding: 1%;
+    color: white;
+    font-size: 50px;
+    flex-basis: 45%; 
+}
