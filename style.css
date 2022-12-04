@@ -422,3 +422,23 @@ nav{
     color: white;       
 
 }
+
+/**************************************************************************************/
+
+.VR_container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
+
+    background-color: black;
+}
+
+.VR_picturesTop{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 2%;
+}
