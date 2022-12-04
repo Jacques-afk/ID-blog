@@ -113,7 +113,7 @@ nav{
     align-items: center;
     flex-direction: row;
 
-    padding: 4%;
+    padding: 2%;
 
     background-color: black;     
 
@@ -484,17 +484,6 @@ nav{
     padding: 2%;
 }
 
-
-.first img{
-    height:400px;
-    width: 150px;
-}
-
-.sixth img{
-    height:400px;
-    width: 150px;
-}
-
 .button_VR{
     justify-content: center;
     align-items: center;
@@ -507,3 +496,15 @@ nav{
     font-size: 30px;
     text-decoration: none;
 }
+
+
+.first img{
+    height:400px;
+    width: 150px;
+}
+
+.sixth img{
+    height:400px;
+    width: 150px;
+}
+
