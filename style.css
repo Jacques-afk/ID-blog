@@ -442,3 +442,11 @@ nav{
     flex-direction: row;
     padding: 2%;
 }
+
+
+
+.first img{
+    height:400px;
+    width: 150px;
+
+}
