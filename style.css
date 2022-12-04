@@ -406,13 +406,22 @@ nav{
 
 
 .more_info{
-    background-color: black;
+    background-color: red;
     color: white;
-    font-size: 60px;
+    font-size: 45px;
 
     display:flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    padding: 2%;
+    
+    
+}
+
+.more_wiki a{
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    
+
 }
