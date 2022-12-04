@@ -412,16 +412,13 @@ nav{
 
     display:flex;
     justify-content: center;
-    align-items: center;
+    
     
     
 }
 
 .more_wiki a{
-    padding: 1%;
-    color: white;
-    text-decoration: none;
-    list-style-type: none;
-    
+    padding: 0 1%;
+    color: white;       
 
 }
