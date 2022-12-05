@@ -109,23 +109,30 @@ nav{
 .bottomBody_gui{
     display: flex;
     justify-content: center;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: row;
+    /* justify-content: center;
+    justify-content: space-evenly; */
+    /* align-items: center;
+    flex-direction: row; */
 
-    padding: 2%;
+    /* padding: 2%; */
 
     background-color: black;     
 
-    flex-wrap: wrap;
-    flex-grow: 1;    
+    /* flex-wrap: wrap;
+    flex-grow: 1;     */
+}
+
+.bottomBody_pic img{
+
+    max-width: 100%;
+    text-align: ;
 }
 
 .bottomBody_text{
-    display:flex;
+    /* display:flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-evenly; */
     text-align: center;
     
 
@@ -136,16 +143,12 @@ nav{
 
 }
 
-.bottomBody_pic img{
 
-    height: 650px;
-    width: 800px;
-}
 
 .button_ref{
-    justify-content: center;
+    /* justify-content: center;
     align-items: center;
-    display: flex;
+    display: flex; */
 
     width: 400px;
     height: 150px;
@@ -153,6 +156,7 @@ nav{
     color: darkslategray;
     font-size: 40px;
 }
+
 
 
 .media{
@@ -391,7 +395,6 @@ nav{
     flex-direction: row;
 
     padding: 2%;
-
     background-color: black;     
 
     flex-wrap: wrap;
@@ -524,3 +527,18 @@ nav{
     width: 1300px;
 }
 
+@media only screen and (max-width: 768px) {
+
+.bottomBody_gui{
+    display: inherit;
+}
+
+}
+
+/* This is a flex shorthand */
+/* we set 
+flex-grow: 1; 
+flex-basis: 21%;
+Flex shorthand: https://developer.mozilla.org/en-US/docs/Web/CSS/flex
+Understand flex grow: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow
+*/
