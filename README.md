@@ -24,8 +24,8 @@ Exisiting Features:
 4th. A social tab below to allow users to follow AmongUs/InnerSloth related content and news
 
 Features Left to Implement:
-1st: Allow the pictures to become smaller as well when minimizing
-2nd: Make the navigation bar scroll down as well
+
+Make the navigation bar scroll down as well
 
 
 Technologies Used:
@@ -33,13 +33,18 @@ Technologies Used:
 https://cdnjs.com/libraries/font-awesome
 used to create logo icons for socials
 
+https://fonts.google.com/specimen/Rubik?category=Sans+Serif
+for google font
+
 Testing:
 
-Everything can be flex-wrapped but the images do not become smaller when the page is 
-minimised, only the video from the index.html
+Everything could be flexwrapped with a mobile view.
 
 
-
+Had an extremely hard time learning how to make the youtube video size adjust when minimising the page 
+for a mobile view, but eventually learned how to solve it. Learnt very important knowledge about 
+having liquid images and flex wrap too.
+Link here: https://css-tricks.com/fluid-width-video/
 
 Credits:
 
